@@ -1,0 +1,8 @@
+{
+  "latestVersion": "0.3.51",
+  "updateAvailable": false,
+  "downloadUrl": "https://cfs.devnet.inference.net/auto-update/inference-cli-linux-amd64/0.3.51",
+  "releaseNotes": "Locked version 0.3.51 for compatibility",
+  "minimumVersion": "0.3.51",
+  "deprecated": false
+}
