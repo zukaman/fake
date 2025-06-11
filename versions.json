@@ -1,0 +1,41 @@
+{
+  "latest": "0.3.51",
+  "versions": {
+    "0.3.48": {
+      "version": "0.3.48",
+      "releaseNotes": "",
+      "fileSize": 102086728,
+      "hash": "795f9e4681aeda4a6e4bbd7b25d521d253ba2ed1f56d93812ecd97f4ec2bf26b",
+      "fileUrl": "https://cfs.devnet.inference.net/auto-update/inference-cli-linux-amd64/0.3.48/inference-cli",
+      "commitHash": "fec5ece",
+      "created": "2025-06-06T05:08:11.736Z"
+    },
+    "0.3.49": {
+      "version": "0.3.49",
+      "releaseNotes": "",
+      "fileSize": 102087273,
+      "hash": "e09e532be8dbb75ea745bb2694e7bbfc87a5d80ca1ed478a911ec40b9f229e22",
+      "fileUrl": "https://cfs.devnet.inference.net/auto-update/inference-cli-linux-amd64/0.3.49/inference-cli",
+      "commitHash": "4371705",
+      "created": "2025-06-06T18:00:34.816Z"
+    },
+    "0.3.50": {
+      "version": "0.3.50",
+      "releaseNotes": "",
+      "fileSize": 102089016,
+      "hash": "fc66acb4ddfdb207daa31bb5c82a2a4bd08349c0604010808b03c6ec9ec0e032",
+      "fileUrl": "https://cfs.devnet.inference.net/auto-update/inference-cli-linux-amd64/0.3.50/inference-cli",
+      "commitHash": "18652dd",
+      "created": "2025-06-06T21:23:54.587Z"
+    },
+    "0.3.51": {
+      "version": "0.3.51",
+      "releaseNotes": "Locked stable version for compatibility",
+      "fileSize": 102089013,
+      "hash": "3ba647cd982213aefd472872e6996f7942192a21075be10fe6d07e55a9b944e0",
+      "fileUrl": "https://cfs.devnet.inference.net/auto-update/inference-cli-linux-amd64/0.3.51/inference-cli",
+      "commitHash": "aeb8291",
+      "created": "2025-06-06T22:05:44.438Z"
+    }
+  }
+}
