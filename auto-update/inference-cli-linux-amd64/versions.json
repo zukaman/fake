@@ -1,0 +1,14 @@
+{
+  "latest": "0.3.51",
+  "versions": {
+    "0.3.51": {
+      "version": "0.3.51",
+      "releaseNotes": "Stable locked version",
+      "fileSize": 102089013,
+      "hash": "3ba647cd982213aefd472872e6996f7942192a21075be10fe6d07e55a9b944e0",
+      "fileUrl": "https://cfs.devnet.inference.net/auto-update/inference-cli-linux-amd64/0.3.51/inference-cli",
+      "commitHash": "aeb8291",
+      "created": "2025-06-06T22:05:44.438Z"
+    }
+  }
+}
