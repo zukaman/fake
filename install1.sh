@@ -221,11 +221,11 @@ for BINDIR in $BINDIR_LIST; do
         cp "$BINDIR/inference-runtime" "$BINDIR/inference-runtime.backup" 2>/dev/null || true
         
         # Check and patch version strings
-        RUNTIME_HAS_VERSION=$(strings "$BINDIR/inference-runtime" | grep -E '0\.3\.52' | wc -l)
+        RUNTIME_HAS_VERSION=$(strings "$BINDIR/inference-runtime" | grep -E '0\.3\.51' | wc -l)
         if [ $RUNTIME_HAS_VERSION -gt 0 ]; then
-            perl -0777 -pi -e 's/0\.3\.52/0.3.56/g' "$BINDIR/inference-runtime"
-            perl -0777 -pi -e 's/6b33e37/088c4a9/g' "$BINDIR/inference-runtime"
-            echo "Patched version 0.3.52->0.3.56 and commit 6b33e37->088c4a9 in $BINDIR/inference-runtime"
+            perl -0777 -pi -e 's/0\.3\.51/0.3.56/g' "$BINDIR/inference-runtime"
+            perl -0777 -pi -e 's/aeb8291/088c4a9/g' "$BINDIR/inference-runtime"
+            echo "Patched version 0.3.51->0.3.56 and commit 6b33e37->088c4a9 in $BINDIR/inference-runtime"
         fi
         break
     fi
@@ -234,10 +234,10 @@ done
 # Patch inference-cli
 for BINDIR in $BINDIR_LIST; do
     if [ -f "$BINDIR/inference-cli" ]; then
-        CLI_HAS_VERSION=$(strings "$BINDIR/inference-cli" | grep -E '0\.3\.52' | wc -l)
+        CLI_HAS_VERSION=$(strings "$BINDIR/inference-cli" | grep -E '0\.3\.51' | wc -l)
         if [ $CLI_HAS_VERSION -gt 0 ]; then
-            perl -0777 -pi -e 's/0\.3\.52/0.3.56/g' "$BINDIR/inference-cli"
-            echo "Patched version 0.3.52->0.3.56 in $BINDIR/inference-cli"
+            perl -0777 -pi -e 's/0\.3\.51/0.3.56/g' "$BINDIR/inference-cli"
+            echo "Patched version 0.3.51->0.3.56 in $BINDIR/inference-cli"
         fi
         break
     fi
